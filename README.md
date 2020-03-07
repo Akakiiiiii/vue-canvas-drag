@@ -1,29 +1,16 @@
-# canvas
+# 前言
+这个是Vue版本
+# 效果示范
 
-## Project setup
-```
-npm install
-```
+![](https://user-gold-cdn.xitu.io/2020/3/7/170b100c4f06f6e7?w=379&h=603&f=gif&s=1753702)
+# 线上预览
+查看效果点击 [线上预览](http://120.77.242.209/canvas/)【只支持移动端，PC端请切换到移动端】
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 使用方法
+- clone项目到本地
+- cd vue-canvas-drag
+- npm i
+- npm run serve
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 介绍文章
+- [掘金](https://juejin.im/post/5e5e5f0af265da57133b30bc)
