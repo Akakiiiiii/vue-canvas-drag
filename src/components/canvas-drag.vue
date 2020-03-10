@@ -1,6 +1,6 @@
 <template>
-<canvas id="myCanvas" class="canvas" style="border:1px solid #000000;" @touchstart="start($event)"
-@touchmove="move($event)"> </canvas>
+<canvas id="myCanvas" class="canvas" style="border:1px solid #000000;" @touchstart.prevent="start($event)"
+@touchmove.prevent="move($event)"> </canvas>
 </template>
 
 <script>
@@ -222,9 +222,9 @@ export default {
   mounted () {
     const c = document.getElementById('myCanvas')
     this.c = c
-    const { clientWidth, clientHeight } = document.documentElement
-    c.width = clientWidth - 2
-    c.height = clientHeight / 2
+    const { width, height } = window.screen
+    c.width = width - 2
+    c.height = height * 0.75
     this.ctx = c.getContext('2d')
   }
 }

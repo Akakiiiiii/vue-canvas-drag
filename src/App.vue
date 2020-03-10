@@ -71,15 +71,13 @@ export default {
   margin: 0;
   padding: 0;
 }
-.wrap{
-  width: 100vw;
-  height: 100vh;
+body{
+  height: 100%;
 }
 .upload {
-  position: fixed;
-  bottom: 5%;
+  position: relative;
   width: 100%;
-  height: 5vh;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +90,7 @@ export default {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 5vh;
+  height: 35px;
   opacity: 0;
 }
 </style>
